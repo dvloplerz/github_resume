@@ -1,0 +1,11 @@
+[package]
+name = "fintrack"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = { version = "0.8.4", features = ["tokio"] }
+chrono = { version = "0.4.41", features = ["serde"] }
+serde = { version = "1.0.219", features = ["derive"] }
+tokio = { version = "1.45.0", features = ["rt-multi-thread"] }
+uuid = { version = "1.16.0", features = ["serde", "v4"] }
