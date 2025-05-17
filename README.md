@@ -1,6 +1,6 @@
-# 📋 Simple Todo App (Rust + Axum)
+# 📋 Simple Todo App (Rust + Axum), fintrack (Rust + Axum)
 
-A simple backend-only Todo app built with **Rust** and **Axum**.
+A simple backend-only app built with **Rust** and **Axum**.
 
 > ⚠️ **Work In Progress (WIP)**
 > ⚠️ **กำลังอยู่ในระหว่างพัฒนา**
@@ -10,7 +10,7 @@ A simple backend-only Todo app built with **Rust** and **Axum**.
 ## 📌 Overview
 
 **EN:**
-This is the server-side implementation of a basic Todo app.
+This is the server-side implementation of a basic Todo and expense tracking app.
 Currently, you can interact with it using **cURL** or **Postman** only.
 Data is stored temporarily in memory without a database.
 
@@ -33,9 +33,9 @@ Data is stored temporarily in memory without a database.
 
 ## 🚧 Future Plans / แผนการต่อไป
 
-- 🖥️ Frontend web UI using **Next.js**
-- 🖥️ CLI client using **[Ratatui](https://ratatui.rs/)**
-- 🗄️ Add persistent database support (e.g. PostgreSQL, SQLite)
+- 🖥️ Frontend web UI using **Next.js** **for [fintrack](https://github.com/dvloplerz/github_resume/fintrack.git)**
+- 🖥️ CLI client using **[Ratatui](https://ratatui.rs/)** **for [sta](https://github.com/dvloplerz/github_resume/simple-todo.git) **
+- 🗄️ Add persistent database support (e.g. PostgreSQL, SQLite)  
 - 🐳 Dockerize for deployment
 
 ---
@@ -45,4 +45,5 @@ Data is stored temporarily in memory without a database.
 **EN:**
 
 ```bash
-cargo run
+cd app_name
+cargo run --release
